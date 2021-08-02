@@ -1,4 +1,4 @@
 @echo off
-adb start-server
-adb install %1
+%~dp0/adb.exe start-server
+%~dp0/adb.exe install %1
 pause
